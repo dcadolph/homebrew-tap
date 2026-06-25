@@ -1,28 +1,28 @@
 class Cipher < Formula
   desc "Programmatic SOPS for Go. Encrypt, decrypt, rotate, walk, edit, and audit secret files."
   homepage "https://github.com/dcadolph/cipher"
-  version "0.2.2"
+  version "0.2.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/dcadolph/cipher/releases/download/v0.2.2/cipher_0.2.2_Darwin_arm64.tar.gz"
-      sha256 "82b1a06dc42d665b6d796a6ed748f0533e3d0b75e5fd9bef732a791b3d16780e"
+      url "https://github.com/dcadolph/cipher/releases/download/v0.2.3/cipher_0.2.3_Darwin_arm64.tar.gz"
+      sha256 "eb4d2c6d73e1264ef0b2f379d219b5d4aa07297ce1e8a7895b9ea02a8aac7f51"
     end
     on_intel do
-      url "https://github.com/dcadolph/cipher/releases/download/v0.2.2/cipher_0.2.2_Darwin_x86_64.tar.gz"
-      sha256 "8f0c434b6f79351f053a67a11a9d6fd04fc8347b69e329dac8367fc48b71b6b8"
+      url "https://github.com/dcadolph/cipher/releases/download/v0.2.3/cipher_0.2.3_Darwin_x86_64.tar.gz"
+      sha256 "f01e03bd5694210e19842ddd5cc90c0691d535e340428d1f1d3c548f8e40bea5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dcadolph/cipher/releases/download/v0.2.2/cipher_0.2.2_Linux_arm64.tar.gz"
-      sha256 "aadcb0c14b451e795b761678e3eae1288729fbfaa4cb023cea6fc5d4b83012d0"
+      url "https://github.com/dcadolph/cipher/releases/download/v0.2.3/cipher_0.2.3_Linux_arm64.tar.gz"
+      sha256 "8f4a2b9d6e2f93afcbb7b57dc88943239e6b4c8b5a70015af7d71382e366ab12"
     end
     on_intel do
-      url "https://github.com/dcadolph/cipher/releases/download/v0.2.2/cipher_0.2.2_Linux_x86_64.tar.gz"
-      sha256 "acccc494bcbdd1e84a831ff86d32d9d17680d3f105174c8f2952d5fdcb50d315"
+      url "https://github.com/dcadolph/cipher/releases/download/v0.2.3/cipher_0.2.3_Linux_x86_64.tar.gz"
+      sha256 "f2f5c0399f39788c1ebb042fe86a67c80fad3a55a3bfdbb3c64b82dae3444c59"
     end
   end
 
