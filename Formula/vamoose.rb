@@ -1,28 +1,28 @@
 class Vamoose < Formula
   desc "Calendar workflow engine for time off, approvals, and quick actions"
   homepage "https://github.com/dcadolph/vamoose"
-  version "0.24.0"
+  version "0.25.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/dcadolph/vamoose/releases/download/v0.24.0/vamoose_0.24.0_Darwin_arm64.tar.gz"
-      sha256 "034614da4340e22b981acdc595f8f2531e62de3913d81b402e9e2efb5ee5844a"
+      url "https://github.com/dcadolph/vamoose/releases/download/v0.25.0/vamoose_0.25.0_Darwin_arm64.tar.gz"
+      sha256 "f29c61e8e82d0f708fb0bbf10d9d1039a39f910bf581ff3c78f177486219afaf"
     end
     on_intel do
-      url "https://github.com/dcadolph/vamoose/releases/download/v0.24.0/vamoose_0.24.0_Darwin_x86_64.tar.gz"
-      sha256 "c8b440e66c86fae235a1669fd3b1466b9d35fe8b0d2d3bdc80365437fd33b377"
+      url "https://github.com/dcadolph/vamoose/releases/download/v0.25.0/vamoose_0.25.0_Darwin_x86_64.tar.gz"
+      sha256 "978be1c37c618e221b5ca144a6c13aefa7ea00c0775fecd1261c2a85efca0c78"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dcadolph/vamoose/releases/download/v0.24.0/vamoose_0.24.0_Linux_arm64.tar.gz"
-      sha256 "b4ef033032bce5ddb03ec74288b64a3c936ed9218a10aaa84b41d0632f450785"
+      url "https://github.com/dcadolph/vamoose/releases/download/v0.25.0/vamoose_0.25.0_Linux_arm64.tar.gz"
+      sha256 "3d4a07baa35e6e72294497024a7f22e7c21e0fd93e279196ff9624b62285c7fe"
     end
     on_intel do
-      url "https://github.com/dcadolph/vamoose/releases/download/v0.24.0/vamoose_0.24.0_Linux_x86_64.tar.gz"
-      sha256 "c0d709171e16aeb6a51f2c699949f96415b1dff15871138f3bafcc9c737ce3c6"
+      url "https://github.com/dcadolph/vamoose/releases/download/v0.25.0/vamoose_0.25.0_Linux_x86_64.tar.gz"
+      sha256 "fbc88d7f82e1114d8f83111c411e8de75744c92c1b415063bc3b66256ca11eef"
     end
   end
 
