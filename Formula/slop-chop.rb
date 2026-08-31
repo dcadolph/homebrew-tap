@@ -7,22 +7,22 @@ class SlopChop < Formula
   on_macos do
     on_arm do
       url "https://github.com/dcadolph/slop-chop/releases/download/v0.30.0/slop-chop_0.30.0_Darwin_arm64.tar.gz"
-      sha256 "bdd4407e8ee64ac5aa977e86f10dfb564268b989292c42296a2de00f8118a08f"
+      sha256 "9683189b553cc98d30de8bd17f35ad647359082f2fa252095b20e7cab742fe56"
     end
     on_intel do
       url "https://github.com/dcadolph/slop-chop/releases/download/v0.30.0/slop-chop_0.30.0_Darwin_x86_64.tar.gz"
-      sha256 "fbb1fc974362598293124bbb2862ea080e4912ee8b9651b3033d9af6dcb34654"
+      sha256 "84d3865bbf8584501728accd66cdec6fbf46531c5ea21f4f00437db622c5ac3b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dcadolph/slop-chop/releases/download/v0.30.0/slop-chop_0.30.0_Linux_arm64.tar.gz"
-      sha256 "4e82c8d5f69c4eb1a448f058254b43c7ebb30a5292c38978182835da66e3b9ea"
+      sha256 "3c9e24db9c6420099c7f631edca7ea1ae25b241096163d1f1f434ef8ccb64abd"
     end
     on_intel do
       url "https://github.com/dcadolph/slop-chop/releases/download/v0.30.0/slop-chop_0.30.0_Linux_x86_64.tar.gz"
-      sha256 "502dfcd7118c0644106b0b2e534825887ad06f9bc331663d6800ee5e91423777"
+      sha256 "dc62803359daa802d77067ebe4b2e786879a7cda2023b7896c20627bd5b74e8a"
     end
   end
 
