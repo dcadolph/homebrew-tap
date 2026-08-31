@@ -4,21 +4,21 @@ cask "kibble" do
 
   on_macos do
     on_arm do
-      sha256 "ae3037c8c583dcb8c8bf9f84d62d9d24cc2325ce6dc4dd1fb96b15136102f427"
+      sha256 "b94a7be2eb2d58f215b8365fa196031cd87edf7bd7c934fc426cfc33659d76ee"
       url "https://github.com/dcadolph/kibble/releases/download/v#{version}/kibble_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f0b213a3608eeb84a407f0ffae4f28d4ac0998fe279d7531f810d5e88e53e545"
+      sha256 "0a7cc1279dd07764cf1eb24dbd75ec62e53a43ee2c22cf3fd7d7936e6c6c210e"
       url "https://github.com/dcadolph/kibble/releases/download/v#{version}/kibble_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4c07b5354381e5ced0a5c83da83e60a13ecbc42cb6f36b79a19201746bd037b5"
+      sha256 "942873e8c5c86fef638422f87dacff175f23c613b57e6264fb245bbd1f57f86c"
       url "https://github.com/dcadolph/kibble/releases/download/v#{version}/kibble_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3939bdcabed67d7fb0a239271ea47611cfe1a36b5b3ff6735dc19f6c5b12ef12"
+      sha256 "2e699270c9634dccdc28c3d5b655771fbf56d7cafcfe975259b3d003a688053c"
       url "https://github.com/dcadolph/kibble/releases/download/v#{version}/kibble_#{version}_linux_amd64.tar.gz"
     end
   end
