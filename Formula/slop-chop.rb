@@ -1,28 +1,28 @@
 class SlopChop < Formula
   desc "Strip AI writing tells so text reads like a human wrote it"
   homepage "https://github.com/dcadolph/slop-chop"
-  version "0.31.0"
+  version "0.32.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dcadolph/slop-chop/releases/download/v0.31.0/slop-chop_0.31.0_Darwin_arm64.tar.gz"
-      sha256 "4c24b0135d8936abff3065b81423d95025c6a7d013a570667754325f1ecde1ba"
+      url "https://github.com/dcadolph/slop-chop/releases/download/v0.32.0/slop-chop_0.32.0_Darwin_arm64.tar.gz"
+      sha256 "e30585711710bdc088626362048d71d9df89a4076bec92dac38acf0b3aa9a803"
     end
     on_intel do
-      url "https://github.com/dcadolph/slop-chop/releases/download/v0.31.0/slop-chop_0.31.0_Darwin_x86_64.tar.gz"
-      sha256 "f896f22a752fc7ec2e83235b06303de4eaefc6d4215a35c030044b999a1ec39b"
+      url "https://github.com/dcadolph/slop-chop/releases/download/v0.32.0/slop-chop_0.32.0_Darwin_x86_64.tar.gz"
+      sha256 "56a7784cee896afce9af90d626e9eb84f129421103f08b67eb2c18f5cf96ac12"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dcadolph/slop-chop/releases/download/v0.31.0/slop-chop_0.31.0_Linux_arm64.tar.gz"
-      sha256 "44b5e846666de08c182cc86ee6ede9851257ddb080de426e8d59f797c8023bd2"
+      url "https://github.com/dcadolph/slop-chop/releases/download/v0.32.0/slop-chop_0.32.0_Linux_arm64.tar.gz"
+      sha256 "c6aba65fbec4b46addb1163f513a45e3fe3d0b4f9c74a66e5180bc786e61c199"
     end
     on_intel do
-      url "https://github.com/dcadolph/slop-chop/releases/download/v0.31.0/slop-chop_0.31.0_Linux_x86_64.tar.gz"
-      sha256 "805656fc7d79d9f05d747541a0efd1d5ce6905aa0c0a6a2055382513403c17f9"
+      url "https://github.com/dcadolph/slop-chop/releases/download/v0.32.0/slop-chop_0.32.0_Linux_x86_64.tar.gz"
+      sha256 "984fa423cdb8996cdb98d93efbbf95230218c68981d6a04b4f9ab25af2bd75aa"
     end
   end
 
