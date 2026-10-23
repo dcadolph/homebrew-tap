@@ -1,8 +1,8 @@
 class Moorings < Formula
   desc "Pin apps to the edges of an ultrawide Mac screen with Hammerspoon"
   homepage "https://github.com/dcadolph/moorings"
-  url "https://github.com/dcadolph/moorings/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "83bea02f68f462c926a89ebc07e91acdac8824447c8b45c447551f500c000a4a"
+  url "https://github.com/dcadolph/moorings/archive/refs/tags/v1.4.0.tar.gz"
+  sha256 "6e50f94247a83925b2d8268df307f4e94d1a3ecc5b6a2cd29853e0878b979717"
   license "Apache-2.0"
 
   depends_on :macos
