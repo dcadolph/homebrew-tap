@@ -1,14 +1,14 @@
 class Moorings < Formula
   desc "Pin apps to the edges of an ultrawide Mac screen with Hammerspoon"
   homepage "https://github.com/dcadolph/moorings"
-  url "https://github.com/dcadolph/moorings/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "0c65d4b340a0122b5b4a916efb37364f44a08e155fcaa2e8fcbe83990b24f5fb"
+  url "https://github.com/dcadolph/moorings/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "83bea02f68f462c926a89ebc07e91acdac8824447c8b45c447551f500c000a4a"
   license "Apache-2.0"
 
   depends_on :macos
 
   def install
-    pkgshare.install Dir["*.lua", "*.svg", "*.html"], "README.md", "FEATURES.md", "LICENSE"
+    pkgshare.install Dir["*.lua", "*.svg", "*.html", "*.png"], "README.md", "FEATURES.md", "LICENSE"
     bin.install "moorings"
   end
 
