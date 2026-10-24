@@ -1,6 +1,6 @@
 cask "sheepdog" do
-  version "1.4.2"
-  sha256 "77644ca3e8ce4d1878e0d97b2f2bca0a613f5bde550050b2d65e9f08bbe9b677"
+  version "1.4.3"
+  sha256 "d911b2f4f8b209c4040caa33bb119b0bf8989db9eef816c5375f8ed0e1ec8944"
 
   url "https://github.com/dcadolph/sheepdog/releases/download/v#{version}/sheepdog_v#{version}_macos_universal.zip"
   name "Sheepdog"
