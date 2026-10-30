@@ -1,6 +1,6 @@
 cask "moorings" do
-  version "1.15.1"
-  sha256 "e1abb7f44353ce56af778a18400fc3ae2802263a815eddf7c65491974a52ba17"
+  version "1.16.0"
+  sha256 "b0a75f402989838b75fb28ba6f354011da80b08b4a487e8f82b475c2a1587087"
 
   url "https://github.com/dcadolph/moorings/releases/download/v#{version}/moorings_v#{version}_macos_universal.zip"
   name "Moorings"
@@ -12,7 +12,9 @@ cask "moorings" do
     strategy :github_latest
   end
 
-  depends_on macos: :sonoma
+  auto_updates true
+
+  depends_on macos: :sequoia
 
   app "Moorings.app"
 
