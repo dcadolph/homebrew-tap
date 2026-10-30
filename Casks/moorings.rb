@@ -1,6 +1,6 @@
 cask "moorings" do
-  version "1.15.0"
-  sha256 "6de75e897b5a068c8477a8b89a9f0046fad1069190113e6d5fb172903af76448"
+  version "1.15.1"
+  sha256 "e1abb7f44353ce56af778a18400fc3ae2802263a815eddf7c65491974a52ba17"
 
   url "https://github.com/dcadolph/moorings/releases/download/v#{version}/moorings_v#{version}_macos_universal.zip"
   name "Moorings"
