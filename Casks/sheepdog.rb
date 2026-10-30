@@ -1,6 +1,6 @@
 cask "sheepdog" do
-  version "1.16.2"
-  sha256 "40d428303d15ca1986f1387b7ac01497e2beb68105f4339a052fb4bb29bc6927"
+  version "1.17.0"
+  sha256 "74a084d365c9d5ce11ed81422aa0026bde7bf8e941ab5adc5539974d791dd0a6"
 
   url "https://github.com/dcadolph/sheepdog/releases/download/v#{version}/sheepdog_v#{version}_macos_universal.zip"
   name "Sheepdog"
@@ -11,6 +11,8 @@ cask "sheepdog" do
     url :url
     strategy :github_latest
   end
+
+  auto_updates true
 
   depends_on macos: :sonoma
 
