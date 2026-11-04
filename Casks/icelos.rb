@@ -1,6 +1,6 @@
 cask "icelos" do
-  version "0.2.0"
-  sha256 "d4e7066bc417271454b43d56bb62ec815b935d826900004693ec79ef76a55b12"
+  version "0.3.0"
+  sha256 "bb53e458b82af7e020d4324e2e0ca782c2e29358cbaf859852ffa8beffb58f7c"
 
   url "https://github.com/dcadolph/icelos/releases/download/v#{version}/Icelos_v#{version}_macos_universal.zip"
   name "Icelos"
