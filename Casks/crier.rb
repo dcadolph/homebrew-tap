@@ -1,6 +1,6 @@
 cask "crier" do
-  version "0.1.0"
-  sha256 "b9530434e838d854ead8d6e2ca788f0c38c0acaa8d13d922b7e79625af5ca5c5"
+  version "0.2.0"
+  sha256 "122396c5cd89b95fb07407425d7b8ef58f4a0064dd9367c35ac3429d7e737ba2"
 
   url "https://github.com/dcadolph/crier/releases/download/v#{version}/crier_v#{version}_macos_universal.zip"
   name "Crier"
