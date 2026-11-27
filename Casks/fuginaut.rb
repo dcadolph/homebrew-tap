@@ -1,6 +1,6 @@
 cask "fuginaut" do
-  version "0.9.0"
-  sha256 "7c084f95cc7aa9e9d23ad82f3f0f6d91793a0e44e1fd33eb53c5ba2a9c77863e"
+  version "0.10.0"
+  sha256 "d3ec9f5f7ab05512e4936219be226b65bce5447b4d57038cf1a2d2eee1576f85"
 
   url "https://github.com/dcadolph/fuginaut/releases/download/v#{version}/fuginaut_v#{version}_macos_universal.zip"
   name "Fuginaut"
